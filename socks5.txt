@@ -1,0 +1,2 @@
+[REMOVE THIS LINE] Add your own proxies here with format socks5://1.1.1.1 get public ones from https://proxyscrape.com/free-proxy-list (use on own risk)
+[REMOVE THIS LINE] This source uses proxies to bypass Cloudflare Anti-DDoS
