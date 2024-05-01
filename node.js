@@ -11,7 +11,7 @@ const { SocksProxyAgent } = require("socks-proxy-agent");
 // ('k,2,1'); // Walk up
 // ('k,0,1'); // Walk left
 
-// to get servers press f12 and hover the server buttons (in gats menu)
+// to get servers press f12 and find the server elements (includes websocket servers)
 const servers = [
  "gat-eu-central-gd6yr.io-8.com/6b048d40-42e9-48b8-a038-12261a2a5404",
 ];
@@ -41,7 +41,7 @@ function host_system() {
     agent: agent
   });
 
-  ws.binaryType = "arraybuffer"; // set socket type to AB
+  ws.binaryType = "arraybuffer"; // arraybuffer based encoding
 
   ws.on("open", function open() {
     ws.send(`s,3,3,3`); // gun armor color
