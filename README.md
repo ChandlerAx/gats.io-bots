@@ -1,5 +1,5 @@
 # gats.io-bots
-Since gats.io is ending here is a open source bot bypass for the game
+gats.io captcha bypass with proxies to bypass cloudflare http-ddos
 
 
 # install
